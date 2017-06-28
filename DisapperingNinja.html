@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Disappering Ninja</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script type = "text/javascript">
+            $(document).ready(function(){
+                $(".section").click(function(){   
+                    $(this). children().hide();
+            })
+            $("button").click(function(){
+                $("img").show("slow");
+            })
+        })
+        </script>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+             <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+             <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+             <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+             <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+             <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+             <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+            <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+             <div class="section">
+                <img src="./ninja.png" alt="ninja">
+            </div>
+            <button>Restore</button>
+           
+        </div>
+    </body>
+</html>
+
+
